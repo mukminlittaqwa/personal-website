@@ -1,0 +1,21 @@
+{
+  "name": "@repo/forms",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.tsx",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./hooks/*": "./src/hooks/*.ts",
+    "./schemas/*": "./src/schemas/*.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "react-hook-form": "^7.65.0",
+    "yup": "^1.7.1"
+  }
+}
