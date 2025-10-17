@@ -2,6 +2,16 @@
 
 Proyek ini adalah monorepo Turborepo. Ini termasuk aplikasi frontend (admin dan profile) menggunakan Next.js dan app router, serta backend sederhana dengan Express dan SQLite, terdapat juga package shared untuk UI (MUI dan tailwind) dan form handling (react from-hook). Semua code menggunakan TypeScript untuk keamanan tipe data.
 
+# Catatan
+
+Sebenarnya dapat ditambah lagi beberapa hal
+
+- [stroybox](https://storybook.js.org/) untuk ui documentasikan UI dan ini sangat berguna terutama mengetahui props
+- [react-query](https://tanstack.com/query/latest) server-state utilities dan data fetching, jadi wush wush
+- [translate](https://www.i18next.com/overview/getting-started) ini multi laguage bisa pakai ini dan nanti seklian buat di google sheet config dan list transalte nya entah bahasa indonesia dan beberpa bahasa lainnya yang akan di config sekaligus melali google sheet, jadi auto update list transalate nya (cukup panjang)
+
+beberapa hal yang harus nya ditambahkan, tapi karna waktunya mendesak untuk test dan project lainnya saat ini xixixixi ya maaf bwanggggggg
+
 ## Cara install and running
 
 Run the following command:
@@ -17,6 +27,8 @@ pnpm dev:backend #untuk running backend
 
 #untuk running sekaligus data menggunakan
 pnpm run dev #jika backend tidak running maka manual
+
+#runningnya tidak bisa hubungi saya ahahahaha
 ```
 
 ## What's inside?
